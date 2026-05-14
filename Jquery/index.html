@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jquery Mobile application</title>
+
+        <link rel="stylesheet"
+        href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+
+    <body>
+        <div data-role="page" id="home">
+            <div data-role="header">
+                Jquery mobile site
+            </div>
+            <div data-role="content">
+                <h2>Welcome! This is a simple Jquery website</h2>
+                <p>This site has been developed using jquery</p>
+                <a href="#about" data-role="button">
+                    Go to about page
+                </a>
+                <div data-role="footer">
+                    <h4>Simple footer</h4>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="page" id="about">
+            <div data-role="header">
+                <h1>About</h1>
+            </div>
+            <div data-role="content">
+                <p>This about page has been created using jquery mobile</p>
+                <a href="#home" data-role="button">
+                    Go back to home
+                </a>
+            </div>
+            <div data-role="footer">
+                <h4>Simple footer 2</h4>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+ng new simple-app
+cd simple-app
+
+ng g c register
+ng g c login
+ng g c profile

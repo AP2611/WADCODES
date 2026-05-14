@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            User Information
+        </title>
+    </head>
+    <body>
+        <h2>User Data</h2>
+        <br><br>
+        <table border="1" id="usertable">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </table>
+    </body>
+    <script>
+        const users = JSON.parse(localStorage.getItem("users")) || [];
+        const table = document.getElementById("usertable");
+
+        users.forEach(u=>{
+            table.innerHTML += `<tr><td>${u.name}</td><td>${u.email}</td></tr>`;
+        });
+    </script>
+</html>

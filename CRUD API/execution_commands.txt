@@ -1,0 +1,10 @@
+POST http://localhost:3000/students - Enter data
+
+GET http://localhost:3000/students - Fetch
+
+PUT http://localhost:3000/students/ID - Update
+
+DELETE http://localhost:3000/students/ID - DELETE
+
+
+body format - JSON

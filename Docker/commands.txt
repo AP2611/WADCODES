@@ -1,0 +1,20 @@
+docker --version
+docker info
+
+docker pull ubuntu
+
+docker run -it ubuntu
+
+apt update
+apt install -y nano (These 2 are basic commands to run inside the container)
+
+exit
+
+docker ps        # running containers
+docker ps -a     # all containers (These commands list containers)
+
+docker start <container_id>
+docker attach <container_id>   (these Start a stopped container)
+
+docker stop <container_id> (Stop container)
+

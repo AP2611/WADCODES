@@ -1,0 +1,37 @@
+cd your-project-folder
+git init
+
+git add .
+
+git commit -m "Initial commit"
+
+Create a repository on GitHub
+Go to:
+https://github.com
+Click New Repository
+Give name (e.g., my-project)
+Click Create Repository
+
+git remote add origin https://github.com/your-username/your-repo-name.git
+
+git branch -M main
+git push -u origin main
+
+
+If push gives error - 
+
+Step 1: Generate Token
+Go to:
+👉 https://github.com/settings/tokens
+Click "Generate new token (classic)"
+Select:
+✅ repo (full control)
+Click Generate token
+⚠️ Copy the token immediately (you won’t see it again)
+
+git push -u origin main
+
+When prompted:
+
+Username: your GitHub username
+Password: 👉 PASTE THE TOKEN (not your password)
